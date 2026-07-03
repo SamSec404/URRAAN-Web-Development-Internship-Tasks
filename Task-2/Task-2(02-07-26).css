@@ -9,7 +9,7 @@ body{
     background:#f5f5f5;
 }
 
-/* HERO */
+/* Hero section*/
 .hero{
     width:90%;
     margin:auto;
@@ -58,7 +58,7 @@ body{
     margin-right:15px;
 }
 
-/* CONTENT SECTIONS */
+/* Content section */
 .content{
     width:90%;
     margin:120px ;
@@ -98,7 +98,7 @@ body{
     line-height:1.5;
 }
 
-/* FOOTER */
+/* Footer section*/
 footer{
     text-align:center;
     padding:100px 20px;
@@ -129,7 +129,7 @@ footer a{
     width:80px;
 }
 
-/* MOBILE */
+/* end section*/
 @media(max-width:768px){
 
     .hero,
