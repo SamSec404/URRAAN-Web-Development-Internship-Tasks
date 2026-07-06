@@ -22,26 +22,31 @@ body{
 .upper-left{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 0px;
+    margin-top: 35px;
 }
 
 .upper-logo{
-    width: 400px;
+    width: 350px;
 }
 
 .upper-heading{
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 3px;
-    margin-bottom: 10px;
+    font-family:sans-serif;
+    margin-bottom: 5px;
+    font-weight: 600;
 }
 
 .upper-subheading{
-    font-size: 26px;
-    color: gray;
+    font-size: 21.5px;
+    color: rgb(106, 104, 104);
     font-family:Arial, Helvetica, sans-serif;
-    font-weight: 200;
+    font-weight: 10;
+    margin-bottom: 40px;
+    margin-right: 50px;
 }
 
 .upper-heading-dev{
@@ -59,7 +64,7 @@ body{
 
 .link{
     width: 200px;
-    height: 70px;
+    height: 85px;
     margin-top: 10px;
 }
 
@@ -71,13 +76,14 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .second-upper, .second-below{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 30px;
 }
 
 .second-right, .third-left{
@@ -86,6 +92,12 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.image2{
+    width: 600px;
+    height: 580px;
+    margin-top: 50px;
 }
 
 .heading{
@@ -99,9 +111,11 @@ body{
     flex-direction: column;
     color: gray;
     align-items: center;
-    font-size: 36px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style:initial;
+    font-family:'Roboto', sans-serif;
     font-weight: 100;
+    margin-top: 20px;
 }
 
 .fourth-section{
@@ -158,3 +172,8 @@ body{
     width: 120px;
     margin-top: 20px;
 }
+
+
+
+
+
